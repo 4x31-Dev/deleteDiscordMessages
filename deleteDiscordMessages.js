@@ -146,7 +146,7 @@
      * @param {function} stopHndl stopHndl used for stopping
      * @author Victornpb <https://www.github.com/victornpb>
      * @see https://github.com/victornpb/deleteDiscordMessages
-     */
+     */ 
     async function deleteMessages(authToken, authorId, guildId, channelId, minId, maxId, content,hasLink, hasFile, includeNsfw, includePinned, extLogger, stopHndl, onProgress) {
         const start = new Date();
         let deleteDelay = 100;
